@@ -142,7 +142,10 @@ body {
 a{
     text-decoration: none;
 }
-
+img{
+    display: block;
+    width: 100%;
+}
 h1 {
     font-size: 80px;
     line-height: 94px;
@@ -258,4 +261,8 @@ ul.expreience li::before{
 
 .footer a{
     color:#fff;
+    transition: all 0.5s;
+}
+.footer a:hover{
+   color: #891818;
 }
